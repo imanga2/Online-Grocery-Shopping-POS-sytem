@@ -1,0 +1,335 @@
+/*
+CSS File for Goto Grocery MRM Project
+Designed by : Swinions
+*/
+
+
+body {
+    margin: 0;
+    width:100%;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#whitelink {
+    text-decoration: none;
+    color: white;
+}
+
+#whitelink:visited {
+    color: white;
+}
+
+#header {
+    background-image: url("page.jfif");
+    width: 100%;
+    height: 20rem;
+    top:0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+#titleboxone {
+    width: 50%;
+    height: 30%;
+    margin: auto;
+    background-color: #F4E8C1af;
+    text-align: center;
+    top: 0;
+    transform: translate(-1%, 90%);
+}
+
+#titleboxtwo {
+    width: 50%;
+    height: 30%;
+    margin: auto;
+    background-color: #111111df;
+    text-align: center;
+    top: 0;
+    transform: translate(0%, 0%);
+}
+
+
+#titleheading {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+    display: inline-block;
+    text-align: center;
+    transform: translateY(-60%);
+}
+
+#navbarbg {
+    display: inline-block;
+    width: 100%;
+    height: 30%;
+    background-color: #111111;
+    position: relative;
+}
+
+#navbartext {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color:#111;
+    text-align: center;
+    font-size: 3rem;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    color:#111;
+    text-align: center;
+    font-size: 2.5rem;
+    clear:both;
+}
+
+
+#homebody {
+    padding-left:4rem;
+    padding-right: 4rem;
+    padding-top: 0;
+    font-size: 1.5rem;
+}
+
+#homebodyp {
+    padding-left:4rem;
+    padding-right: 1rem;
+    padding-top: 0;
+    font-size: 1.5rem;
+    max-width: 45%;
+    float:left;
+}
+
+#groceryimage {
+    padding-top: 2rem;
+    padding-left:1rem;
+    width: 40%;
+    float:right;
+    height: 50%;
+    padding-right: 4rem;
+    padding-bottom: 0rem;
+}
+
+.legendtext {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+}
+
+fieldset {
+    padding : 5px ; margin: 15px;
+}
+
+legend {
+    text-indent: 0.5em; font-weight: bold; font-size: 115% ;
+}
+
+fieldset label {
+    margin: 0px 5px;
+}
+
+input,select {
+    font-size: 100%;
+}
+
+.button {
+    margin-left: 1.5rem;
+    font-weight: bold; padding: 15px; background-color: rgb(0,0,0); color: white;
+}
+
+footer {
+    clear:both;
+    background-color: #111111;
+    height: auto;
+    transform: translateY(50%);
+    padding: 0.25rem;
+}
+
+#footertext {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 5px 0 5px 0;
+    position: relative;
+    background-color: black;
+  }
+  
+  img.avatar {
+    width: 5%;
+    height: 2.5%;
+    border-radius: 50%;
+  }
+  .button {
+    background-color: rgb(68, 65, 65);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+  }
+  .button:hover {
+   background-color: black;
+   color: lightgrey;
+   
+ }
+ .button1{
+    background-color: rgb(117, 193, 3);
+    border: none;
+    color: rgb(21, 21, 21);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+ }
+ .button1:hover{
+    background-color: green;
+    color: white;
+ }
+ .button2{
+    background-color: rgb(250, 51, 51);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+ }
+ .button2:hover{
+    background-color: rgb(243, 83, 83);
+    color: white;
+ }
+
+#bgImage{
+    background-image: url("page.jfif");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* display: block; */
+}
+
+.mid{
+  position: absolute;
+  top: 10rem;
+  left: 10%;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 4rem;
+  color: rgb(247, 249, 250);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.btnCenter{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Home Page buttons */
+
+.bn30 {
+    border: 5em;
+    cursor: pointer;
+    outline: none;
+    font-size: 30px;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+    padding: 0.7em 2em;
+    border-radius: 65px;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.438);
+    -webkit-transition: box-shadow 0.25s;
+    transition: box-shadow 0.25s;
+    color: white;
+  }
+  
+  .bn30 .text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+  }
+  
+  .bn30:after {
+    content: "";
+    border-radius: 55px;
+    position: absolute;
+    margin: 5px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: #0e0e10;
+  }
+  
+  .bn30:hover {
+    background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+    box-shadow: 0 20px 24px rgba(128, 128, 128, 0.1);
+  }
+  
+  .bn30:hover .text {
+    background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+  }
+
+  /* Home btn  */
+  .bn3 {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    margin: 2em 0.1em 0.1em 2em;
+    border: 0.16em solid rgb(255, 255, 255);
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+    text-align: center;
+    transition: all 0.2s;
+  }
+  
+  .bn3:hover {
+    color: black;
+    background-color: rgb(255, 255, 255);
+  }
+
+    
+  img.avatar1 {
+    position: absolute;
+    width: 30%;
+    height: 60%;
+    bottom: 0;
+  }
